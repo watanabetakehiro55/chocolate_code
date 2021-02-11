@@ -1,0 +1,22 @@
+spring:
+  thymeleaf:
+    cache: false
+  jmx:
+    enabled: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chocolatedb?serverTimezone=JST
+    username: root
+    password: mysql
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+  mapper-locations:
+        - classpath*:/jp/co/internous/chocolate/model/mapper/**/*.xml
+
+logging:
+  level:
+    org:
+      springframework: WARN
+    jp.co.internous.chocolate.model.mapper: DEBUG
