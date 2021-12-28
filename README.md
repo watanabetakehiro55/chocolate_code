@@ -5,4 +5,4 @@
 また、個人のGitリポジトリへのコピー、NAVERまとめ等のまとめサイトへの引用を厳禁いたします。
 
 
-Copyright © 2020- Internous inc. All Rights Reserved.
+Copyright © 2020- Internous inc. All Rights Reserved.# chocolate_code
